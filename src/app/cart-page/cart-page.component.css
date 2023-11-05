@@ -1,0 +1,114 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 1.5rem;
+    
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    flex: 3 0;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    text-decoration: none;
+}
+
+ul li:last-child{
+   border: none; 
+}
+
+ul li img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100rem;
+    object-fit: cover;
+}
+
+ul li div{
+    padding: 1rem;
+}
+
+ul li div:not(:first-child){
+    flex-basis: 18%;
+}
+
+ul li select{
+    width: 3rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+
+ul .remove-button{
+    border-radius: 10px;
+    border: none;
+    padding: .5rem;
+    color: black;
+    outline: none;
+    font-size: 15px;
+    height: 40px;
+    width: 120px;
+    background-color: #fad087;
+}
+
+ul .remove-button:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.checkout{
+    height: 150px;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 25px;
+    margin: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+    
+}
+
+.checkout>div{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.checkout .foods-count{
+    margin-bottom: 15px;
+}
+
+.checkout .foods-count::before{
+    content: 'Count: ';
+    color: black;
+}
+
+.checkout .total-price::before{
+    content: 'Price: ';
+    color: black;
+}

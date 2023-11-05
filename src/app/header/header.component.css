@@ -1,0 +1,39 @@
+header {
+    padding: 0;
+    height: 100px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    background-color: #fad087;
+    border-radius: 30px;
+    margin: 12px;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+}
+
+a.logo{
+    font-weight: bold;
+    padding: 1em;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+nav ul li a {
+    padding: 1em;
+    display: inline-block;
+}

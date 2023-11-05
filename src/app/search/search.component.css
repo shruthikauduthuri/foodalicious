@@ -1,0 +1,38 @@
+div{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+div input{
+    border-radius: 25px 0 0 25px;
+    border: none;
+    height: 50px;
+    width: 500px;
+    background-color: #f1f1f1;
+    padding: 1.2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    outline: none;
+}
+
+div button{
+    color: grey;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 0 25px 25px 0;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: #fad087;
+}
+
+div button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    
+}
